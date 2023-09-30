@@ -7,19 +7,22 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 import med.voll.api.dto.endereco.DadosEndereco;
 
-public record DadosCadastroPaciente(
-        @NotBlank String nome,
 
-        @NotBlank
-        @Email
+public record DadosCadastroPaciente(
+        @NotBlank(message = "Nome é obrigatório")
+        String nome,
+
+        @NotBlank(message = "Email é obrigatório")
+        @Email(message = "Formato do email é inválido")
         String email ,
 
-        @NotBlank String telefone,
-        @NotBlank
-        @Pattern(regexp = "\\d{3}\\.?\\d{3}\\.?\\d{3}\\-?\\d{2}")
+        @NotBlank(message = "Telefone é obrigatório")
+        String telefone,
+        @NotBlank(message = "CPF é obrigatório")
+        @Pattern(regexp = "\\d{3}\\.?\\d{3}\\.?\\d{3}\\-?\\d{2}", message = "Formato do CPF é inválido")
 
         String cpf,
-      @NotNull
+        @NotNull(message = "Dados do endereço são obrigatórios")
         // para validar outra anotação coloca o valid
       @Valid
       DadosEndereco endereco
@@ -27,5 +30,5 @@ public record DadosCadastroPaciente(
 
 ) {
 
-
 }
+
