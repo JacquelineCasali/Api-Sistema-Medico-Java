@@ -6,7 +6,7 @@ O aplicativo ou sistema web deve possuir funcionalidades que permitam o cadastro
 Esse projeto é o desenvolvimento da API Rest.
 
 ## Imagem do Projeto
-![Video_apimedico]
+![Video_apimedico](./Video_apimedico.gif)
 
 ## ⚙️ Funcionalidades
 
