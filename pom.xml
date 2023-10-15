@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>med.voll</groupId>
 	<artifactId>api-Sistema-medico</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>api</name>
 	<description>Api Rest da aplicação voll.med</description>
 	<properties>
