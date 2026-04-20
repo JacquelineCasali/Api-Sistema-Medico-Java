@@ -54,7 +54,7 @@ git clone https://github.com/JacquelineCasali/Api-Sistema-Medico-Java.git
 cd Api-Sistema-Medico-Java
 ./mvnw spring-boot:run
 
-
+```
 # 📁 Acessar a aplicação
 
 ##### Enquanto o servidor está ligado, acesse o navegador e entre no endereço abaixo
@@ -70,13 +70,13 @@ Exemplo:
   "email": "ana.souza@voll.med",
   "senha": "123456"
 }
-```
+
 ## 📌 Diferenciais do projeto
-Implementação de regras de negócio reais
-Estrutura preparada para evolução e escalabilidade
-Separação clara de responsabilidades
-Uso de versionamento de banco com Flyway
-Documentação interativa com Swagger
+- [x] Implementação de regras de negócio reais
+- [x] Estrutura preparada para evolução e escalabilidade
+- [x] Separação clara de responsabilidades
+- [x] Uso de versionamento de banco com Flyway
+- [x] Documentação interativa com Swagger
 
 ## 👩‍💻 Autora
 
