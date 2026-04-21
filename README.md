@@ -1,4 +1,4 @@
-```markdown
+
 # 🏥 API de Clínica Médica (Spring Boot)
 
 API REST para gerenciamento de médicos, pacientes e agendamentos, com foco em boas práticas de arquitetura, segurança e organização de código.
