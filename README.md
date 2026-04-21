@@ -1,31 +1,33 @@
+```markdown
 # 🏥 API de Clínica Médica (Spring Boot)
 
-API REST desenvolvida para gerenciamento de médicos, pacientes e agendamentos, com foco em boas práticas de arquitetura, segurança e organização de código.
+API REST para gerenciamento de médicos, pacientes e agendamentos, com foco em boas práticas de arquitetura, segurança e organização de código.
 
-## Imagem do Projeto
+## 🎥 Demonstração da API
 ![Video_apimedico](./Video_apimedico.gif)
 
 ## 🛠 Tecnologias utilizadas
 
-- **[Java 17]**
-- **[Spring Boot 3]**
-- **[Spring Data JPA / Hibernate]**
-- **[MySQL]**
-- **[Flyway (versionamento de banco)]**
-- **[Lombok]**
-- **[Maven]**
-- **[Swagger (OpenAPI)]**
-- **[Postman]**
+- Java 17
+- Spring Boot 3
+- Spring Data JPA / Hibernate
+- MySQL
+- Flyway
+- Lombok
+- Maven
+- Swagger (OpenAPI)
+- Postman
 
 
 ## ⚙️ Funcionalidades
 
-- [x] CRUD completo de médicos;
-- [x] CRUD completo de pacientes;
-- [x] Agendamento de consultas;
-- [x] Cancelamento de consultas.
+- [x] CRUD completo de médicos
+- [x] CRUD completo de pacientes
+- [x] Agendamento de consultas
+- [x] Cancelamento de consultas
 - [x] Validação de regras de negócio
 - [x] Controle de conflitos de agendamento
+- [x] Implementação de autenticação segura com JWT
 
 ## 🔐 Segurança
 
@@ -55,21 +57,25 @@ cd Api-Sistema-Medico-Java
 ./mvnw spring-boot:run
 
 ```
-# 📁 Acessar a aplicação
+## 📁 Acessar a aplicação
 
-##### Enquanto o servidor está ligado, acesse o navegador e entre no endereço abaixo
+##### Acesse a documentação via Swagger:
 http://localhost:8080/swagger-ui/index.html
-
 
 ## 👨🏻‍💻 Autenticação
 
 Utilize o endpoint:
+
 POST /login
+
 Exemplo:
+```json
 {
   "email": "ana.souza@voll.med",
   "senha": "123456"
 }
+```
+Após o login, copie o token retornado e utilize na opção Authorize do Swagger.
 
 ## 📌 Diferenciais do projeto
 - [x] Implementação de regras de negócio reais
@@ -81,5 +87,5 @@ Exemplo:
 ## 👩‍💻 Autora
 
 Jacqueline Casali
-🔗 https://github.com/JacquelineCasali
-🔗 https://casali.vercel.app
+- 🔗 GitHub: https://github.com/JacquelineCasali  
+- 🌐 Portfólio: https://casali.vercel.app
